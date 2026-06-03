@@ -1,0 +1,7 @@
+import {
+  "kujirahand/crc32",
+}
+
+options(
+  "is-main": true,
+)

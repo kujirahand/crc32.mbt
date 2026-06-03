@@ -1,0 +1,22 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "kujirahand/crc32"
+
+// Values
+pub fn checksum(Bytes) -> UInt
+
+pub fn checksum_basic(Bytes) -> UInt
+
+// Errors
+
+// Types and methods
+pub struct CRC32Stream {
+  mut crc : UInt
+}
+pub fn CRC32Stream::finalize(Self) -> UInt
+pub fn CRC32Stream::new() -> Self
+pub fn CRC32Stream::update(Self, Bytes) -> Self
+
+// Type aliases
+
+// Traits
+
