@@ -89,9 +89,9 @@ pub fn checksum(bytes : Bytes) -> UInt {
 
 ///|
 /// CRC32 checksum stream implementation
-pub struct CRC32Stream {
+pub(all) struct CRC32Stream {
   mut crc : UInt
-}
+} derive(Eq, Debug)
 
 ///|
 /// Create a new CRC32Stream with initial CRC value
